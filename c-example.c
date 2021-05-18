@@ -25,6 +25,7 @@ int login
  if (x) {
   do {
    printit(x);
+   log_trace("doing it now...");
   } while (y < 2);
  }
 
