@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int f()
+int login
 {
   if (x) {
    return 2;
@@ -25,6 +25,7 @@ int f()
  if (x) {
   do {
    printit(x);
+   log_trace("doing it now...");
   } while (y < 2);
  }
 
@@ -33,6 +34,18 @@ int f()
 
 int main(int argc, char *argv[])
 {
+  int b = 2;
+
+  if (b) {
+   if (a) {
+     if (c) {
+      if (d) {
+        z =1;
+      }
+     }
+    }
+  }
+
   return f();
 }
 
